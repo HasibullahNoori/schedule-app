@@ -15,6 +15,6 @@ public class HomeController {
         model.addAttribute("datetime", new Date());
         model.addAttribute("username", "Ömerrrr");
         model.addAttribute("mode", "Dev");
-        return "home";
+        return "index";
     }
 }
